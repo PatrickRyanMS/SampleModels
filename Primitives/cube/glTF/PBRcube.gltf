@@ -1,0 +1,160 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 133,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 133,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 133,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 133,
+      "type": "VEC3",
+      "max": [
+        0.099999994,
+        0.099999994,
+        0.099999994
+      ],
+      "min": [
+        -0.099999994,
+        -0.099999994,
+        -0.099999994
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5123,
+      "count": 564,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "generator": "glTF Tools for Unity",
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "uri": "PBRcube.bin",
+      "byteLength": 7512
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 1064
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1064,
+      "byteLength": 1596
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 2660,
+      "byteLength": 2128
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 4788,
+      "byteLength": 1596
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 6384,
+      "byteLength": 1128
+    }
+  ],
+  "images": [
+    {
+      "uri": "PBRcube_image0.png"
+    },
+    {
+      "uri": "PBRcube_image1.png"
+    },
+    {
+      "uri": "PBRcube_image2.png"
+    }
+  ],
+  "materials": [
+    {
+      "name": "M_PBRcube",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.214041144,
+          0.214041144,
+          0.214041144,
+          1.0
+        ],
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      },
+      "normalTexture": {
+        "index": 2
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "TEXCOORD_0": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "POSITION": 3
+          },
+          "indices": 4,
+          "material": 0
+        }
+      ],
+      "name": "Cube"
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "translation": [
+        0.0,
+        0.1,
+        0.0
+      ],
+      "name": "PBRcube"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "source": 0
+    },
+    {
+      "source": 1
+    },
+    {
+      "source": 2
+    }
+  ]
+}

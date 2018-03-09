@@ -1,0 +1,160 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 418,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 418,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 418,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 418,
+      "type": "VEC3",
+      "max": [
+        0.100000039,
+        0.099999994,
+        0.100000054
+      ],
+      "min": [
+        -0.099999994,
+        -0.099999994,
+        -0.100000016
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5123,
+      "count": 1920,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "generator": "glTF Tools for Unity",
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "uri": "PBRcylinder.bin",
+      "byteLength": 23904
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 3344
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 3344,
+      "byteLength": 5016
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 8360,
+      "byteLength": 6688
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 15048,
+      "byteLength": 5016
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 20064,
+      "byteLength": 3840
+    }
+  ],
+  "images": [
+    {
+      "uri": "PBRcylinder_image0.png"
+    },
+    {
+      "uri": "PBRcylinder_image1.png"
+    },
+    {
+      "uri": "PBRcylinder_image2.png"
+    }
+  ],
+  "materials": [
+    {
+      "name": "M_PBRcylinder",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.214041144,
+          0.214041144,
+          0.214041144,
+          1.0
+        ],
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      },
+      "normalTexture": {
+        "index": 2
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "TEXCOORD_0": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "POSITION": 3
+          },
+          "indices": 4,
+          "material": 0
+        }
+      ],
+      "name": "Cylinder"
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "translation": [
+        0.0,
+        0.1,
+        0.0
+      ],
+      "name": "PBRcylinder"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "source": 0
+    },
+    {
+      "source": 1
+    },
+    {
+      "source": 2
+    }
+  ]
+}
